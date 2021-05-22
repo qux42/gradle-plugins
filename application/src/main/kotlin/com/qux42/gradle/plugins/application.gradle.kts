@@ -5,7 +5,7 @@ plugins {
     application
 }
 
-val quxAppExtension = project.extensions.create<QuxApplicationExtension>("quxApplication")
+val quxAppExtension = project.extensions.create<ApplicationExtension>("quxApplication")
 
 
 tasks.distZip {
